@@ -1,0 +1,124 @@
+:root {
+  --main--one--color: #08102B;
+  --main--two--color: #00225D;
+  --main--three--color: #04437D;
+  --main--four--color: #1282A2;
+  --main--principal--text: #252540;
+}
+
+.expanded{
+  display: flex;
+  width: 13em;
+  height: 62em;
+  background: #8d4925;
+  position: sticky;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: all 0.5s;
+  align-items: center;
+}
+
+.expanded img {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  align-self: center;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  margin-bottom: 20px;
+}
+
+.expanded button{
+    width: 5em;
+    height: 5em;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+    border: transparent;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.expanded button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.expanded .name_information, .telephone_information, 
+.gmail_information, .direction_information {
+ background: rgba(0, 0, 0, 0.1);
+ color: white;
+ width: 98%;
+ height: 4em;
+ margin-top: 10px;
+ text-align: center;
+ font-size: 1.5em;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 1em;
+}
+ 
+.expanded .new_contact img{
+  display: none;
+}
+
+.contracted{
+  display: flex;
+  width: 5em;
+  height: 62em;
+  background: #8d4925;
+  position: sticky;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: all 0.5s;
+} 
+
+.contracted button{
+  width: 5em;
+  height: 5em;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: transparent;
+  border: transparent;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.contracted .name_information,
+.contracted .telephone_information,
+.contracted .direction_information,
+.contracted .gmail_information{
+  display: none;
+}
+
+.btn_hambirguesa{
+  width: 90%;
+  height: 4px;
+  background: rgb(206, 198, 198);
+  margin-top: 6px;
+  border-radius: 50px;
+}
+
+.new_contact{
+  width: 4em;
+  height: 4em;
+  background: transparent;
+  border-radius: 50%;
+  margin-right: 1px;
+  justify-self: center;
+  margin: 5em 0em 0em 0em;
+  align-self: center;
+  cursor: pointer;
+  margin: a;
+}
+
+.new_contact img{
+  width: 4em;
+  height: 4em;
+}
+
+
