@@ -1,0 +1,72 @@
+.container_add_contact_contracted {
+    display: none;
+    margin: 10em 0em 0em 10em;
+}
+
+.container_add_contact_contracted .name,
+.container_add_contact_contracted .telephone,
+.container_add_contact_contracted .gmail,
+.container_add_contact_contracted .direction,
+.container_add_contact_contracted p,
+.container_add_contact_contracted .button_submit{
+    display: none;
+}
+
+
+.container_add_contact_expanded{
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 32em;
+    background: #e6966e;
+    margin: 10em 0em 0em 10em;
+}
+
+.container_add_contact_expanded input{
+ margin-top: 2em;
+ margin: auto;
+ width: 50%;
+ height: 5%;
+}
+
+.container_add_contact_expanded p{
+color: black;
+margin: auto;
+font-weight: bolder;
+font-style: italic;
+}
+
+.container_add_contact_expanded .button_submit{
+    width: 30%;
+    height: 6%;
+    background: #e6966e;
+    color: white;
+    font-style: italic;
+}
+
+#container_form_add_contacts{
+    position: absolute;
+    z-index: 2;
+}
+
+.container_add_contact_expanded button{
+    width: 3em;
+    height: 2em;
+    background: transparent;
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.container_add_contact_expanded button p {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+.container_add_contact_expanded button p:hover{
+    color: rgb(235, 30, 57);
+    font-size: 4em;
+    transition: 0.3s;
+}
