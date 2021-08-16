@@ -1,0 +1,70 @@
+
+.contacts_contrated{
+    width: 20em;
+    height: 3em;
+    background: rgba(235, 233, 233, 0.719);
+    margin: 1em 1em 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 50em;
+    cursor: pointer;
+}
+
+.contacts_contrated > img{
+    width: 10%;
+    height: 80%;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.contacts_contrated > .contacts_name{
+    font-size: 1.3em;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(145, 121, 121);
+}
+
+.contacts_contrated > .contacts_telephone 
+{
+    display: none;
+}
+
+.contacts_contrated .contacts_gmail{
+    display: none;
+}
+
+.contacts_contrated .contacts_direction{
+    display: none;
+}
+
+.contacts_expanded{
+    width: 20em;
+    height: 13em;
+    background: rgba(241, 238, 238, 0.801);
+    margin: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contacts_expanded >img {
+    display: none;
+}
+
+.contacts_expanded p{
+    color: black;
+    font-size: 1.3em;
+    margin: 0.6em;
+    font-weight: bold;
+    font-style:italic;
+    box-shadow: 1px 1px 1px 1px gray;
+    transition: 0.6s;
+}
+
+/* Media Query*/
+
