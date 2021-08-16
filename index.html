@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="bar_information.css">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="add_contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id='bar_information' class="contracted">
+        <button class="btn_cambio">
+            <a href="" class="btn_hambirguesa"></a>
+            <a href="" class="btn_hambirguesa"></a>
+            <a href="" class="btn_hambirguesa"></a>
+        </button>
+        <img src="Icons/hombre_barra.png" alt="">
+        <a class="name_information">Josue Jimenez De Lucio</a>
+        <a class="telephone_information">74322342432</a>
+        <a class="gmail_information">josue@gmail.com</a>
+        <a class="direction_information">16 de septiembre $53A</a>
+
+        <div class="new_contact">
+            <img src="Icons/anadir-amigo.png" alt="" class="img_add_contacts">
+        </div>
+
+        <div id="container_form_add_contacts" class="container_add_contact_contracted">
+            <button type="button" class="button_remove_container" id="button_remove_container">
+                <p>X</p>
+            </button>
+            <p>NAME</p>
+            <input type="text" class="name" placeholder="Username"> 
+            <p>TELEPHONE</p>
+            <input type="number" class="telephone" placeholder="7753285945"  maxlength = "3">
+            <p>EMAIL</p>
+            <input type="email" class="email" placeholder="laRatahidalguense@gmail.com">
+            <p>DIRECTION</p>
+            <input type="text" class="direction" placeholder="16 de septiembre #53A">
+            <p>HOMBRE</p>
+            <input type="radio" class="genero" name="G" id="Hombre">
+            <P>MUJER</P>
+            <input type="radio" class="genero" name="G" id="Mujer">
+            <P>PREFIERO NO DECIRLO</P>
+            <input type="radio" class="genero" name="G" id="No">
+            <input type="button" class="button_submit" id="button_submit" value="A G R E G A R">
+        </div>
+
+    </div>
+
+    <div id="container_contacts" class="contenedor_contactos"> </div>
+
+    </div>
+
+    </div>
+    <script src="DOM.js"></script>
+    <script src="Add_contacts.js"></script>
+</body>
+
+</html>
